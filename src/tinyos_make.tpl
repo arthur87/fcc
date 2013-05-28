@@ -1,0 +1,2 @@
+COMPONENT=<OUTPUT>AppC
+include $(MAKERULES)
