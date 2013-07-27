@@ -1,0 +1,9 @@
+void main()
+{
+	IO.serialInit(9600);
+	for(;;) {
+		int v = IO.analogRead(0);
+		Time.delay(1000);
+		IO.serialWrite(v);
+	}
+}
